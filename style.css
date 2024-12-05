@@ -1,0 +1,91 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #6ba66b; /* Light green */
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Container for the entire content */
+.container {
+    text-align: center;
+    width: 80%;
+    background-color: #3e773e; /* Darker green */
+    border: 2px solid black;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Header styling */
+header h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+/* Table styling */
+table {
+    width: 100%;
+    border-spacing: 10px;
+}
+
+/* Labels */
+.label {
+    font-weight: bold;
+    text-align: left;
+    padding-right: 10px;
+}
+
+/* Name section */
+.name {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+/* Profile photo */
+.photo img {
+    width: 150px;
+    height: auto;
+    border: 3px solid black;
+    border-radius: 5px;
+}
+
+/* Links section */
+.links h2 {
+    font-size: 1.25rem;
+    margin-bottom: 10px;
+}
+
+.links ol {
+    text-align: left;
+}
+
+.links li {
+    margin: 5px 0;
+}
+
+/* Link styling */
+.links a {
+    color: purple;
+    text-decoration: none;
+}
+
+.links a:hover {
+    text-decoration: underline;
+}
+
+/* Footer styling */
+footer {
+    margin-top: 20px;
+    font-weight: bold;
+}
